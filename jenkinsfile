@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    stages {
+       stage("buildstage") {
+         steps {
+            echo "i love God"
+          }
+       }
+       stage("teststage") {
+         steps {
+            echo " testing my knowledge "
+         }
+       }
+       stage("deployingstage") {
+         steps {
+            echo "deploying the power of God in my life"
+         }
+       }
+    }
+}

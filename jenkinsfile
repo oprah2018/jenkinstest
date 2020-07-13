@@ -8,7 +8,7 @@ pipeline {
        }
        stage("teststage") {
          steps {
-            echo " testing my knowledges "
+            mvn compile
          }
        }
        stage("deployingstage") {
